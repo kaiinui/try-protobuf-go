@@ -1,0 +1,8 @@
+package main;
+
+message Book {
+    required string book_id = 3;
+    required string title = 1;
+    required int32 page_count = 2;
+    required string author_name = 4;
+}
